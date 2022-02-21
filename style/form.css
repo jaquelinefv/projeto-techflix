@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Patrick+Hand&display=swap');
+
+/*variavel base*/
+:root{
+    --roxo: #4C1D95;
+    --preto: #141414;
+}
+
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  color: #4C1D95;
+  
+
+}
+
+.form-signin {
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: auto;
+}
+
+h1{
+    color: #4C1D95;
+}

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="style/style.css"><!--Link CSS-->
+        <link rel="stylesheet" type="text/css" href="style/responsive.css"> <!--responsividade-->
+
+        <link rel="stylesheet" type="text/css" href="style/owl/owl.carousel.min.css"><!--Link  Owl CSS JQuery-->
+        <link rel="stylesheet" type="text/css" href="style/owl/owl.theme.default.min.css"><!--Link Owl CSS JQuery-->
+
+        <link rel="icon" type="imagem/png" href="img/logos/icone.ico"/><!--Icone do navegador-->
+
+        <title>TECHFLIX</title>
+    </head>
+    <body>
+        <header> <!--Barra de navegação-->
+            <div class="container">
+                <a href="index.html"><h2 class="logo">TECHFLIX</h2></a>
+                <nav> 
+                    <a href="index.html">Inicio</a>
+                    <a href="cursos.html">Cursos</a>
+                    <a href="eventos.html">Eventos</a>
+                    <a href="filmes.html">Filmes Tech</a>
+                </nav>
+            </div>
+        </header>
+
+        <main><!--Destaque da página-->
+            <div class="destaque-principal"><!--Conteúdo de destaque-->
+                <div class="container">
+                    <h3 class="title">EVENTOS TECHFLIX</h3> <!--Nome do destaque-->
+                    <p class="descricao">Veja eventos no Brasil e pelo mundo e fique por dentro do que ta rolando!</p><!--Descrição do destaque-->
+                    <div class="botoes">
+                        <button role="button" onclick="paginaInicial()" class="botao"><i class="fa-solid fa-house"></i> PÁGINA INICIAL</button>
+                        <button role="button" onclick="maisEventos()"  class="botao"><i class="fa-solid fa-calendar-check"></i> MAIS EVENTOS</button>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <section><!--Conteúdo da página-->
+            <div class="carrosel-item"><!--Conteúdo da página-->
+                <div class="owl-carousel owl-theme">
+                    <div class="item">
+                        <a href="http://www.frontinsampa.com.br/" target="_blank">
+                            <h3>FRONTIN SAMPA EVENTO FRONT END </h3><br>
+                            <img src="img/eventos/frontinsampa.png" alt="logo Front in Sampa">
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="https://www.womentech.net/" target="_blank">
+                            <h3>WOMEN TECH GLOBAL CONFERENCE</h3><br>
+                            <img src="img/eventos/womentech.png" alt="logo Women Tech">
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="https://hacktown.com.br/" target="_blank">
+                            <h3>HACK TOWN FESTIVAL DE CRIATIVIDADE E INOVAÇÃO</h3><br>
+                            <img src="img/eventos/hacktown.png" alt="logo HackTown">
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="https://vtexday.vtex.com/" target="_blank">
+                            <h3>VTEX DAY INOVAÇÃO DIGITAL</h3><br>
+                            <img src="img/eventos/vtexday.png" alt="logo VTEX DAY">
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="https://www.gdconf.com/" target="_blank">
+                            <h3>GAME DEVELOPERS CONFERENCE</h3><br>
+                            <img src="img/eventos/gdc.png" alt=" logo Game Developer Conference">
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="https://developer.apple.com/wwdc21/" target="_blank">
+                            <h3>WORLDWIDE DEVELOPERS CONFERENCE</h3><br>
+                            <img src="img/eventos/wwdc.jpg" alt="logo Worldwide Developers Conference 2021">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Scripts da página-->
+        <script src="https://kit.fontawesome.com/4b9ad3d3f2.js" crossorigin="anonymous"></script><!--LINK DO SERVIDOR ONLINE PARA ACESSAR ICONES-->
+        <script src="js/owl/jquery.min.js"></script>
+        <script src="js/owl/owl.carousel.min.js"></script>
+        <script src="js/owl/setup.js"></script>
+    </body>
+</html>
+                    
