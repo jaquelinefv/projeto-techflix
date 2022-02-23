@@ -32,7 +32,9 @@ function maisEventos(){
     window.location.href = "https://www.showmetech.com.br/calendario-tech-feiras-e-eventos-do-ano/"
 }
 
-
+function assistir(){
+    window.location.href = "assistir.html"
+}
 
 
 //Botão cursos.html/eventos.html/filmes.html
