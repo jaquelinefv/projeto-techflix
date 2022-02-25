@@ -52,7 +52,7 @@ Sites que foram utilizados para conteúdo da Techflix
 - [Udemy](https://www.udemy.com/pt/)
 - [Frontin Sampa](http://www.frontinsampa.com.br/)
 - [Women Tech Global Conference](https://www.womentech.net/)
-- [HackTown]("https://hacktown.com.br/)
+- [HackTown](https://hacktown.com.br/)
 - [Vtex Day](https://vtexday.vtex.com/)
 - [Game Developers Conference](https://www.gdconf.com/)
 - [Worldwide Developer Conference](https://developer.apple.com/wwdc21/)
