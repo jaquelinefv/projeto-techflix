@@ -1,9 +1,8 @@
 # 🎞️ PROJETO TECHFLIX 🎞️
-A Techflix é para o usuario que tem envolvimento, interesse e/ou curiosidade em tecnologia. Desenvolvido para fins de estudo, com práticas em front-end.
-
+A Techflix é para o usuário que tem envolvimento, interesse e/ou curiosidade em tecnologia. Desenvolvido para fins de estudo, com práticas em front-end.
 
 ## Recriando a interface da Netflix 💻
-Esse projeto tem como objetivo recriar a interface do principal site do site Netflix 
+Esse projeto tem como objetivo recriar a interface do site Netflix 
 utilizando tecnologias simples como HTML5, CSS3 e JavaScript. Também apliquei conhecimentos básicos de JQuery e Bootstrap.
 
 ## Aprendizado 📖
